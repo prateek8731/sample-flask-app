@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/prateek8731/sample-flask-app.git'
+                git 'https://github.com/prateek8731/sample-flask-app'
             }
         }
         stage('Build') {
